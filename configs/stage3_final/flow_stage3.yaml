@@ -1,0 +1,31 @@
+# Winning Stage-3 Configuration for Flow (Access-2026-16085 Table 2)
+model: lanca
+dataset: flow_anm_nr10
+data_root: ./data
+num_causal_vars: 4
+latent_dim: 32
+img_size: 96
+img_channels: 3
+batch_size: 64
+epochs: 1000
+lr: 0.0005
+lr_dag: 0.001
+lr_dag_perm: 0.005
+lambda_recon: 1.0
+lambda_recon_scm: 1.0
+lambda_prior: 10.0
+lambda_dag: 1.0
+lambda_sort: 5.0
+tau_edges: 10.0
+dag_sparsity_prior: 0.25
+prior_mode: mmd
+mmd_kernel: imq
+recon_loss_type: bce
+poly_degree: 2
+trig_terms: true
+interaction_max_degree: 2
+scm_hidden_dim: 16
+scm_layers: 2
+scm_activation: silu
+seeds: [2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034]
+

@@ -1,0 +1,26 @@
+# Deep Learning Framework
+torch
+torchvision
+torchaudio
+
+# Core Data Science & Metrics
+numpy
+pandas
+scikit-learn
+matplotlib>=1.5.2
+seaborn
+scipy>=1.0.0
+
+# Image & Data Utilities
+pillow>=5.0.0
+imageio
+simplejson
+
+# Configuration & Utilities
+PyYAML
+gin-config
+absl-py
+future
+six
+tqdm
+wandb

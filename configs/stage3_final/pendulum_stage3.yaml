@@ -1,0 +1,31 @@
+# Winning Stage-3 Configuration for Pendulum (Access-2026-16085 Table 2)
+model: lanca
+dataset: pendulum_anm_nr10
+data_root: ./data
+num_causal_vars: 4
+latent_dim: 64
+img_size: 96
+img_channels: 3
+batch_size: 64
+epochs: 1000
+lr: 0.0005
+lr_dag: 0.01
+lr_dag_perm: 0.005
+lambda_recon: 1.0
+lambda_recon_scm: 10.0
+lambda_prior: 1.0
+lambda_dag: 0.1
+lambda_sort: 0.1
+tau_edges: 2.0
+dag_sparsity_prior: 0.01
+prior_mode: mmd
+mmd_kernel: imq
+recon_loss_type: bce
+poly_degree: 2
+trig_terms: true
+interaction_max_degree: 2
+scm_hidden_dim: 8
+scm_layers: 2
+scm_activation: gelu
+seeds: [2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034]
+

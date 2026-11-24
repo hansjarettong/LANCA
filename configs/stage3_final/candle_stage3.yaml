@@ -1,0 +1,33 @@
+# Winning Stage-3 Configuration for CANDLE (Access-2026-16085 Table 3)
+model: lanca
+dataset: candle
+data_root: ./data
+num_causal_vars: 12
+latent_dim: 128
+img_size: 96
+img_channels: 3
+batch_size: 128
+epochs: 1000
+lr: 0.0005
+lr_dag: 0.001
+lr_dag_perm: 0.005
+lambda_recon: 1.0
+lambda_recon_scm: 5.0
+lambda_prior: 50.0
+lambda_dag: 0.05
+lambda_sort: 5.0
+tau_edges: 2.0
+dag_sparsity_prior: 0.1
+prior_mode: mmd
+mmd_kernel: rbf
+recon_loss_type: mse
+poly_degree: 2
+trig_terms: false
+interaction_max_degree: 2
+lambda_bb: 1.0
+warmup_epochs: 40
+sparsity_delay: 0.0
+scm_hidden_dim: 16
+scm_layers: 3
+scm_activation: tanh
+seeds: [42, 43, 44, 45, 46, 47, 48, 49, 50, 51]

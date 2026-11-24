@@ -1,7 +1,7 @@
 # LANCA: Latent Additive Noise Model Causal Autoencoder
 
 Official implementation for the manuscript:
-**"Towards Unsupervised Causal Representation Learning via Latent Additive Noise Model Causal Autoencoders"** (*IEEE Access*).
+**"Towards Unsupervised Causal Representation Learning via Latent Additive Noise Model Causal Autoencoders"**.
 
 ---
 
@@ -126,16 +126,7 @@ Due to GitHub repository size constraints, raw generated image datasets and mult
 
 ## Citation
 
-If you find this code useful in your research, please cite:
-
-```bibtex
-@article{ong2026lanca,
-  title={Towards Unsupervised Causal Representation Learning via Latent Additive Noise Model Causal Autoencoders},
-  author={Ong, Hans Jarett and Lim, Brian Godwin and Dayta, Dominic and Tan, Renzo Roel and Ikeda, Kazushi},
-  journal={IEEE Access},
-  year={2026}
-}
-```
+Citation details will be added upon publication.
 
 ## License
 
